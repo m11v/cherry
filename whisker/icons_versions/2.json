@@ -1,0 +1,74 @@
+{
+  "version": 2,
+  "changes": [
+    {
+      "icon": "fruits/avocado.png"
+    },
+    {
+      "icon": "fruits/banana.png"
+    },
+    {
+      "icon": "fruits/cantaloupe.png"
+    },
+    {
+      "icon": "fruits/cherries.png"
+    },
+    {
+      "icon": "fruits/coconut.png"
+    },
+    {
+      "icon": "fruits/cranberry.png"
+    },
+    {
+      "icon": "fruits/dragon-fruit.png"
+    },
+    {
+      "icon": "fruits/grapes.png"
+    },
+    {
+      "icon": "fruits/kiwi.png"
+    },
+    {
+      "icon": "fruits/lemon.png"
+    },
+    {
+      "icon": "fruits/lychee.png"
+    },
+    {
+      "icon": "fruits/mango.png"
+    },
+    {
+      "icon": "fruits/mangosteen.png"
+    },
+    {
+      "icon": "fruits/orange.png"
+    },
+    {
+      "icon": "fruits/papaya.png"
+    },
+    {
+      "icon": "fruits/passion-fruit.png"
+    },
+    {
+      "icon": "fruits/peach.png"
+    },
+    {
+      "icon": "fruits/pear.png"
+    },
+    {
+      "icon": "fruits/pineapple.png"
+    },
+    {
+      "icon": "fruits/pomegranate.png"
+    },
+    {
+      "icon": "fruits/raspberry.png"
+    },
+    {
+      "icon": "fruits/strawberry.png"
+    },
+    {
+      "icon": "fruits/watermelon.png"
+    }
+  ]
+}
