@@ -4,7 +4,7 @@ import json
 import glob
 
 CONFIG_PATH = "whisker/configs.toml"
-VERSIONS_DIR = "whisker/icons_version"
+VERSIONS_DIR = "whisker/icons_versions"
 CHANGED_PATH = "changed/icons.txt"
 
 # 读取当前版本
