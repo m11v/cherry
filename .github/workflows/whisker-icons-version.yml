@@ -57,6 +57,6 @@ jobs:
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
 
-          git add whisker/configs.toml whisker/versions/*.json
+          git add whisker/configs.toml whisker/icons_version/*.json
           git commit -m "chore: bump icon version and generate changelog"
           git push
