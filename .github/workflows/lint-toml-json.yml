@@ -27,12 +27,12 @@ jobs:
         run: |
           echo "🔍 Checking JSON files..."
           json_failed=0
-          find . -name "*.json" | while read file; do
+          for file in $(find . -name "*.json"); do
             echo "Validating $file"
-            python -m json.tool "$file" > /dev/null || {
+            if ! python -m json.tool "$file" > /dev/null 2>&1; then
               echo "❌ Invalid JSON: $file"
               json_failed=1
-            }
+            fi
           done
           if [ "$json_failed" -eq 1 ]; then
             echo "❌ JSON validation failed."
@@ -45,12 +45,12 @@ jobs:
         run: |
           echo "🔍 Checking TOML files..."
           toml_failed=0
-          find . -name "*.toml" | while read file; do
+          for file in $(find . -name "*.toml"); do
             echo "Validating $file"
-            python -c "import tomli; tomli.load(open('$file', 'rb'))" || {
+            if ! python -c "import tomli; tomli.load(open('$file', 'rb'))" 2>/dev/null; then
               echo "❌ Invalid TOML: $file"
               toml_failed=1
-            }
+            fi
           done
           if [ "$toml_failed" -eq 1 ]; then
             echo "❌ TOML validation failed."
@@ -58,3 +58,4 @@ jobs:
           else
             echo "✅ All TOML files are valid!"
           fi
+
