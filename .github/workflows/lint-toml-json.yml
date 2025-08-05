@@ -1,6 +1,14 @@
 name: Check JSON and TOML format
 
 on:
+  push:
+    branches-ignore:
+      - main
+    paths:
+      - '**/*.json'
+      - '**/*.toml'
+      - '.github/workflows/lint-toml-json.yml'
+      
   pull_request:
     paths:
       - '**/*.json'
