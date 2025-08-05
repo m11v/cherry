@@ -54,7 +54,7 @@ jobs:
         run: |
           python whisker/scripts/bump_icon_version.py
 
-    - name: Commit and push changes
+      - name: Commit and push changes
         if: env.ICON_CHANGED == 'true'
         run: |
           git config user.name "github-actions[bot]"
