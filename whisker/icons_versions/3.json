@@ -1,0 +1,14 @@
+{
+  "version": 3,
+  "changes": [
+    {
+      "icon": "fruits/peach.png"
+    },
+    {
+      "icon": "vegetables/eggplants.png"
+    },
+    {
+      "icon": "vegetables/ginger.png"
+    }
+  ]
+}
