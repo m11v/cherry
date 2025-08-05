@@ -25,22 +25,36 @@ jobs:
 
       - name: Validate JSON files
         run: |
-          echo "Checking JSON files..."
+          echo "🔍 Checking JSON files..."
+          json_failed=0
           find . -name "*.json" | while read file; do
             echo "Validating $file"
             python -m json.tool "$file" > /dev/null || {
               echo "❌ Invalid JSON: $file"
-              exit 1
+              json_failed=1
             }
           done
+          if [ "$json_failed" -eq 1 ]; then
+            echo "❌ JSON validation failed."
+            exit 1
+          else
+            echo "✅ All JSON files are valid!"
+          fi
 
       - name: Validate TOML files
         run: |
-          echo "Checking TOML files..."
+          echo "🔍 Checking TOML files..."
+          toml_failed=0
           find . -name "*.toml" | while read file; do
             echo "Validating $file"
             python -c "import tomli; tomli.load(open('$file', 'rb'))" || {
               echo "❌ Invalid TOML: $file"
-              exit 1
+              toml_failed=1
             }
           done
+          if [ "$toml_failed" -eq 1 ]; then
+            echo "❌ TOML validation failed."
+            exit 1
+          else
+            echo "✅ All TOML files are valid!"
+          fi
