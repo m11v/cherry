@@ -1,0 +1,62 @@
+name: Update Whisker Icons Version
+
+on:
+  pull_request:
+    types: [opened, synchronize]
+    paths:
+      - 'whisker/icons/**'
+
+jobs:
+  version-check:
+    runs-on: ubuntu-latest
+    if: github.event.pull_request.head.repo.full_name == github.repository
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install Python dependencies
+        run: pip install toml
+
+      - name: Check for icon changes
+        id: changes
+        run: |
+          git fetch origin ${{ github.event.pull_request.base.ref }}
+
+          # 获取 PR 中改动的文件
+          changed_files=$(git diff --name-only origin/${{ github.event.pull_request.base.ref }}...HEAD)
+
+          echo "Changed files:"
+          echo "$changed_files"
+
+          mkdir -p changed
+          echo "$changed_files" | grep '^whisker/icons/' > changed/icons.txt || true
+
+          if [ -s changed/icons.txt ]; then
+            echo "ICON_CHANGED=true" >> "$GITHUB_ENV"
+          else
+            echo "No icon changes found."
+            echo "ICON_CHANGED=false" >> "$GITHUB_ENV"
+          fi
+
+      - name: Bump icon version and generate JSON
+        if: env.ICON_CHANGED == 'true'
+        run: |
+          python whisker/scripts/bump_icon_version.py
+
+      - name: Commit and push changes
+        if: env.ICON_CHANGED == 'true'
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+
+          git add whisker/configs.toml whisker/versions/*.json
+          git commit -m "chore: bump icon version and generate changelog"
+          git push
