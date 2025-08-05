@@ -5,6 +5,7 @@ on:
     paths:
       - '**/*.json'
       - '**/*.toml'
+      - '.github/workflows/lint-toml-json.yml'
 
 jobs:
   lint:
