@@ -40,6 +40,10 @@ with open(version_file, "w") as f:
 print(f"Version {new_version} generated with {len(changes)} changes.")
 
 # ✅ 打印生成的 JSON 文件内容
+json_content = {
+    "version": new_version,
+    "changes": changes
+}
 with open(version_file, "w") as f:
     json.dump(json_content, f, indent=2)
 print(f"\n✅ Created JSON file: {version_file}")
