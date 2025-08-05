@@ -1,0 +1,61 @@
+name: Check JSON and TOML format
+
+on:
+  pull_request:
+    paths:
+      - '**/*.json'
+      - '**/*.toml'
+      - '.github/workflows/lint-toml-json.yml'
+
+jobs:
+  lint:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install dependencies
+        run: |
+          pip install toml tomli
+
+      - name: Validate JSON files
+        run: |
+          echo "🔍 Checking JSON files..."
+          json_failed=0
+          for file in $(find . -name "*.json"); do
+            echo "Validating $file"
+            if ! python -m json.tool "$file" > /dev/null 2>&1; then
+              echo "❌ Invalid JSON: $file"
+              json_failed=1
+            fi
+          done
+          if [ "$json_failed" -eq 1 ]; then
+            echo "❌ JSON validation failed."
+            exit 1
+          else
+            echo "✅ All JSON files are valid!"
+          fi
+
+      - name: Validate TOML files
+        run: |
+          echo "🔍 Checking TOML files..."
+          toml_failed=0
+          for file in $(find . -name "*.toml"); do
+            echo "Validating $file"
+            if ! python -c "import tomli; tomli.load(open('$file', 'rb'))" 2>/dev/null; then
+              echo "❌ Invalid TOML: $file"
+              toml_failed=1
+            fi
+          done
+          if [ "$toml_failed" -eq 1 ]; then
+            echo "❌ TOML validation failed."
+            exit 1
+          else
+            echo "✅ All TOML files are valid!"
+          fi
+
