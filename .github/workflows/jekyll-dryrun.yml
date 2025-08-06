@@ -1,0 +1,27 @@
+name: Jekyll Dry Run on PR
+
+on:
+  pull_request:
+
+jobs:
+  jekyll-build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Setup Ruby
+        uses: ruby/setup-ruby@v1
+        with:
+          ruby-version: '3.2'
+          bundler-cache: true
+
+      - name: Install dependencies
+        run: |
+          gem install bundler
+          bundle install
+
+      - name: Build site (dry run)
+        run: |
+          bundle exec jekyll build --trace
