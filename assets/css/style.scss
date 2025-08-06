@@ -3,9 +3,9 @@
 
 // 🍒 Cherry color theme overrides
 
-$header-bg-color: #d2042d !default;           // 主背景：樱桃红
-$header-bg-color-secondary: #800000 !default; // 次背景：深樱桃红
-$link-color: #d2042d !default;                // 链接颜色
+$header-bg-color: #e06e58 !default;           // 主背景
+$header-bg-color-secondary: #f9a66c !default; // 次背景：深樱桃红
+$link-color: #e06e58 !default;                // 链接颜色
 
 @import "{{ site.theme }}";
 
