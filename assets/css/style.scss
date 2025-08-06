@@ -3,11 +3,43 @@
 
 @import "{{ site.theme }}";
 
-// Override default Cayman theme colors
-$header-bg-color: #d2042d;           // Cherry red
-$header-bg-color-secondary: #800000; // Dark cherry
+// 🍒 Cherry color theme overrides
 
+$header-bg-color: #d2042d !default;           // 主背景：樱桃红
+$header-bg-color-secondary: #800000 !default; // 次背景：深樱桃红
+$link-color: #d2042d !default;                // 链接颜色
+
+// ✅ Header 渐变背景
 .page-header {
   background-color: $header-bg-color;
   background-image: linear-gradient(120deg, $header-bg-color, $header-bg-color-secondary);
+}
+
+// ✅ 链接样式
+a {
+  color: $link-color;
+  text-decoration: none;
+
+  &:hover,
+  &:focus {
+    color: darken($link-color, 10%);
+    text-decoration: underline;
+  }
+}
+
+// ✅ 按钮样式（比如页脚里的 GitHub 按钮）
+.btn {
+  background-color: $header-bg-color;
+  border-color: $header-bg-color;
+
+  &:hover {
+    background-color: $header-bg-color-secondary;
+    border-color: $header-bg-color-secondary;
+  }
+}
+
+// ✅ 页脚颜色微调（可选）
+.site-footer {
+  background-color: #fafafa;
+  color: #444;
 }
