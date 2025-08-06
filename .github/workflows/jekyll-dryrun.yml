@@ -17,11 +17,10 @@ jobs:
           ruby-version: '3.2'
           bundler-cache: true
 
-      - name: Install dependencies
-        run: |
-          gem install bundler
-          bundle install
+      - name: Install GitHub Pages gem
+        run: gem install github-pages
 
-      - name: Build site (dry run)
-        run: |
-          bundle exec jekyll build --trace
+      - name: Build site with Jekyll
+        env:
+          JEKYLL_ENV: development
+        run: jekyll build --trace
