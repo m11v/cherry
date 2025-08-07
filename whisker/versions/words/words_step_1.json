@@ -1,9 +1,19 @@
 {
-  "version": 1,
+  "version": 2,
   "changes": [
     {
       "icon": "vegetables/corn.png",
       "word": "corn",
+      "category": "vegetables"
+    },
+    {
+      "icon": "vegetables/eggplants.png",
+      "word": "eggplants",
+      "category": "vegetables"
+    },
+    {
+      "icon": "vegetables/garlic.png",
+      "word": "garlic",
       "category": "vegetables"
     },
     {

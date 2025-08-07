@@ -2,16 +2,10 @@
   "version": 2,
   "changes": [
     {
-      "icon": "vegetables/corn.png"
-    },
-    {
       "icon": "vegetables/eggplants.png"
     },
     {
       "icon": "vegetables/garlic.png"
-    },
-    {
-      "icon": "vegetables/soybean.png"
     }
   ]
 }
