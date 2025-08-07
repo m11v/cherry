@@ -28,7 +28,7 @@ jobs:
           python-version: '3.11'
 
       - name: Install Python dependencies
-        run: pip install toml
+        run: pip install toml tomli
 
       - name: Check for icon changes
         id: changes
@@ -86,3 +86,19 @@ jobs:
           git add whisker/versions/words/*.json
           git commit -m "chore: generate words_step_1.json" || echo "Nothing to commit"
           git push origin HEAD:${{ github.head_ref }}
+          
+      - name: Convert configs.toml to configs.json
+        run: |
+          python whisker/scripts/config_toml_to_json.py
+
+      - name: Commit configs.json to PR branch
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add whisker/configs.json
+          if ! git diff --cached --quiet; then
+            git commit -m "chore: update configs.json from configs.toml"
+            git push origin HEAD:${{ github.head_ref }}
+          else
+            echo "ℹ️ No changes to commit."
+          fi
