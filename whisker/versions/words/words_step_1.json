@@ -1,5 +1,5 @@
 {
-  "version": 2,
+  "version": 3,
   "changes": [
     {
       "icon": "vegetables/corn.png",
@@ -7,8 +7,8 @@
       "category": "vegetables"
     },
     {
-      "icon": "vegetables/eggplants.png",
-      "word": "eggplants",
+      "icon": "vegetables/eggplant.png",
+      "word": "eggplant",
       "category": "vegetables"
     },
     {
