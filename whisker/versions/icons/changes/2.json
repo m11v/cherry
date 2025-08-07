@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "changes": [
+    {
+      "icon": "vegetables/eggplants.png"
+    },
+    {
+      "icon": "vegetables/garlic.png"
+    }
+  ]
+}
