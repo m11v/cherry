@@ -1,14 +1,9 @@
 {
-  "version": 2,
+  "version": 3,
   "changes": [
     {
-      "icon": "vegetables/eggplants.png",
-      "word": "eggplants",
-      "category": "vegetables"
-    },
-    {
-      "icon": "vegetables/garlic.png",
-      "word": "garlic",
+      "icon": "vegetables/eggplant.png",
+      "word": "eggplant",
       "category": "vegetables"
     }
   ]
