@@ -8,6 +8,7 @@ on:
     types: [opened, synchronize]
     paths:
       - 'whisker/icons/**'
+      - 'scripts/**'
       - '.github/workflows/whisker-icons-version.yml'
 
 jobs:
