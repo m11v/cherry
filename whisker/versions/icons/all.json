@@ -1,8 +1,11 @@
 {
-  "version": 0,
+  "version": 1,
   "changes": [
     {
       "icon": "vegetables/corn.png"
+    },
+    {
+      "icon": "vegetables/soybean.png"
     }
   ]
 }
