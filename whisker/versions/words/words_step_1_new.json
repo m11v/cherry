@@ -1,4 +1,15 @@
 {
-  "version": 1,
-  "changes": []
+  "version": 2,
+  "changes": [
+    {
+      "icon": "vegetables/eggplants.png",
+      "word": "eggplants",
+      "category": "vegetables"
+    },
+    {
+      "icon": "vegetables/garlic.png",
+      "word": "garlic",
+      "category": "vegetables"
+    }
+  ]
 }
