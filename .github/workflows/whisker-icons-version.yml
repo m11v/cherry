@@ -28,7 +28,7 @@ jobs:
           python-version: '3.11'
 
       - name: Install Python dependencies
-        run: pip install toml
+        run: pip install toml tomli
 
       - name: Check for icon changes
         id: changes
