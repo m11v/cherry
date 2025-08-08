@@ -3,7 +3,6 @@ name: Manual Generate Configs JSON
 on:
   workflow_dispatch:  # 手动触发
   pull_request:
-    types: [ opened, synchronize, reopened ]
     paths:
       - '.github/workflows/whisker/generate-configs-json.yml'
 
