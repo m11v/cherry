@@ -19,4 +19,4 @@ jobs:
           python-version: "3.x"
 
       - name: 👉 Generate and commit configs.json
-        uses: .github/actions/whisker-generate-configs-json
+        uses: ./.github/actions/whisker-generate-configs-json
