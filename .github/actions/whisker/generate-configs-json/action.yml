@@ -1,0 +1,23 @@
+name: "Generate whisker/configs.json"
+description: "Convert whisker/configs.toml to whisker/configs.json and commit changes"
+author: "Irene"
+
+runs:
+  using: "composite"
+
+  steps:
+    - name: ⚙️ Install Python dependencies
+    - shell: bash
+    - run:
+        pip install toml tomli
+
+    - name: 👉️ Convert configs.toml to configs.json
+      shell: bash
+      run: |
+        python ./whisker/scripts/config_toml_to_json.py
+
+    - name: 🚀️ Commit configs.json
+      uses: ./.github/actions/git-commit-push
+      with:
+        files: whisker/configs.json
+        message: "chore: update configs.json from configs.toml"
