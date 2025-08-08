@@ -4,7 +4,7 @@ on:
   workflow_dispatch:  # 手动触发
   pull_request:
     paths:
-      - '.github/workflows/whisker-generate-configs-json.yml'
+      - '.github/workflows/whisker/generate-configs-json.yml'
 
 jobs:
   generate-configs:
