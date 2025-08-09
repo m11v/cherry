@@ -9,6 +9,8 @@ on:
   pull_request:
     paths:
       - '.github/workflows/whisker-generate-configs-json.yml'
+      - '.github/actions/whisker/generate-configs-json/action.yml'
+      - 'whisker/scripts/config_toml_to_json.py'
 
 jobs:
   generate-configs:
