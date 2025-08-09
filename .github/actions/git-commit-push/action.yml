@@ -1,5 +1,5 @@
-name: "Commit and push changes"
-description: "Commit specified files to the current PR branch"
+name: "Commit and push (or create PR)"
+description: "Commit specified files to the current branch or create a PR if on main"
 inputs:
   files:
     description: "Files or directory to add to git"
@@ -11,15 +11,47 @@ inputs:
 runs:
   using: "composite"
   steps:
-    - name: Commit changes
+    - name: Install GitHub CLI
+      shell: bash
+      run: |
+        sudo apt-get update
+        sudo apt-get install -y gh
+
+    - name: Setup git
       shell: bash
       run: |
         git config user.name "github-actions[bot]"
         git config user.email "github-actions[bot]@users.noreply.github.com"
-        git add "${{ inputs.files }}"
-        if ! git diff --cached --quiet; then
-          git commit -m "${{ inputs.message }}"
-          git push origin HEAD:${{ github.head_ref }}
-        else
+
+    - name: Commit and push or create PR
+      shell: bash
+      run: |
+        set -e
+        git add ${{ inputs.files }}
+        if git diff --cached --quiet; then
           echo "ℹ️ No changes to commit."
+          exit 0
+        fi
+
+        current_branch=$(git symbolic-ref --short HEAD 2>/dev/null || git rev-parse --abbrev-ref HEAD)
+
+        if [[ "$current_branch" == "main" ]]; then
+          echo "🔀 On main branch — creating PR..."
+          new_branch="auto/update-$(date +%Y%m%d%H%M%S)"
+          git checkout -b "$new_branch"
+          git commit -m "${{ inputs.message }}"
+          git push origin "$new_branch"
+
+          # Authenticate gh CLI with the provided github.token
+          echo "${{ github.token }}" | gh auth login --with-token
+
+          gh pr create \
+            --base main \
+            --head "$new_branch" \
+            --title "${{ inputs.message }}" \
+            --body "Automated changes from workflow."
+        else
+          echo "📌 On branch $current_branch — pushing directly..."
+          git commit -m "${{ inputs.message }}"
+          git push origin HEAD:"$current_branch"
         fi
