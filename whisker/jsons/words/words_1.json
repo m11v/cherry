@@ -1,0 +1,46 @@
+{
+  "version": 1,
+  "icon_version": 3,
+  "words": [
+    {
+      "icon": "fruits/apple.png",
+      "word": "apple",
+      "category": "fruits"
+    },
+    {
+      "icon": "fruits/lemon.png",
+      "word": "lemon",
+      "category": "fruits"
+    },
+    {
+      "icon": "fruits/orange.png",
+      "word": "orange",
+      "category": "fruits"
+    },
+    {
+      "icon": "fruits/pineapple.png",
+      "word": "pineapple",
+      "category": "fruits"
+    },
+    {
+      "icon": "vegetables/corn.png",
+      "word": "corn",
+      "category": "vegetables"
+    },
+    {
+      "icon": "vegetables/eggplant.png",
+      "word": "eggplant",
+      "category": "vegetables"
+    },
+    {
+      "icon": "vegetables/garlic.png",
+      "word": "garlic",
+      "category": "vegetables"
+    },
+    {
+      "icon": "vegetables/soybean.png",
+      "word": "soybean",
+      "category": "vegetables"
+    }
+  ]
+}
