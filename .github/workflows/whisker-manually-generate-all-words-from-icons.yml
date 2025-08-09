@@ -36,5 +36,6 @@ jobs:
         uses: ./.github/actions/git-commit-push
         with:
           files: ${{ steps.generate_words.outputs.files }}
+          message: "[whisker] Generate words (automated update)"
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
