@@ -1,0 +1,111 @@
+{
+  "version": 2,
+  "icon_version": 4,
+  "new_words": [
+    {
+      "icon": "fruits/avocado.png",
+      "word": "avocado",
+      "category": "fruits"
+    },
+    {
+      "icon": "fruits/banana.png",
+      "word": "banana",
+      "category": "fruits"
+    },
+    {
+      "icon": "fruits/cantaloupe.png",
+      "word": "cantaloupe",
+      "category": "fruits"
+    },
+    {
+      "icon": "fruits/cherries.png",
+      "word": "cherries",
+      "category": "fruits"
+    },
+    {
+      "icon": "fruits/coconut.png",
+      "word": "coconut",
+      "category": "fruits"
+    },
+    {
+      "icon": "fruits/cranberry.png",
+      "word": "cranberry",
+      "category": "fruits"
+    },
+    {
+      "icon": "fruits/dragon-fruit.png",
+      "word": "dragon fruit",
+      "category": "fruits"
+    },
+    {
+      "icon": "fruits/durian.png",
+      "word": "durian",
+      "category": "fruits"
+    },
+    {
+      "icon": "fruits/grapes.png",
+      "word": "grapes",
+      "category": "fruits"
+    },
+    {
+      "icon": "fruits/kiwi.png",
+      "word": "kiwi",
+      "category": "fruits"
+    },
+    {
+      "icon": "fruits/lychee.png",
+      "word": "lychee",
+      "category": "fruits"
+    },
+    {
+      "icon": "fruits/mango.png",
+      "word": "mango",
+      "category": "fruits"
+    },
+    {
+      "icon": "fruits/mangosteen.png",
+      "word": "mangosteen",
+      "category": "fruits"
+    },
+    {
+      "icon": "fruits/papaya.png",
+      "word": "papaya",
+      "category": "fruits"
+    },
+    {
+      "icon": "fruits/passion-fruit.png",
+      "word": "passion fruit",
+      "category": "fruits"
+    },
+    {
+      "icon": "fruits/peach.png",
+      "word": "peach",
+      "category": "fruits"
+    },
+    {
+      "icon": "fruits/pear.png",
+      "word": "pear",
+      "category": "fruits"
+    },
+    {
+      "icon": "fruits/pomegranate.png",
+      "word": "pomegranate",
+      "category": "fruits"
+    },
+    {
+      "icon": "fruits/raspberry.png",
+      "word": "raspberry",
+      "category": "fruits"
+    },
+    {
+      "icon": "fruits/strawberry.png",
+      "word": "strawberry",
+      "category": "fruits"
+    },
+    {
+      "icon": "fruits/watermelon.png",
+      "word": "watermelon",
+      "category": "fruits"
+    }
+  ]
+}
