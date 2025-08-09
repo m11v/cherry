@@ -59,7 +59,7 @@ def main():
         if path.is_file():
             all_icons.append({"icon": "/".join(path.relative_to(icons_root).parts)})
     # 排序
-    all_icons = sorted(changes_list, key=lambda x: x["icon"])
+    all_icons = sorted(all_icons, key=lambda x: x["icon"])
 
     all_json_path = pathlib.Path("whisker/jsons/icons/all.json")
     all_json_path.parent.mkdir(parents=True, exist_ok=True)
