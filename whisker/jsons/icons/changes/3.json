@@ -1,0 +1,17 @@
+{
+  "version": 3,
+  "changes": [
+    {
+      "icon": "fruits/apple.png"
+    },
+    {
+      "icon": "fruits/lemon.png"
+    },
+    {
+      "icon": "fruits/orange.png"
+    },
+    {
+      "icon": "fruits/pineapple.png"
+    }
+  ]
+}

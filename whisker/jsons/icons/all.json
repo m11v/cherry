@@ -1,6 +1,18 @@
 {
-  "version": 2,
+  "version": 3,
   "icons": [
+    {
+      "icon": "fruits/apple.png"
+    },
+    {
+      "icon": "fruits/lemon.png"
+    },
+    {
+      "icon": "fruits/orange.png"
+    },
+    {
+      "icon": "fruits/pineapple.png"
+    },
     {
       "icon": "vegetables/corn.png"
     },
