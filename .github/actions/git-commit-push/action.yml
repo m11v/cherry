@@ -2,7 +2,7 @@ name: "Commit and push (or create PR)"
 description: "Commit specified files to the current branch or create a PR if on main"
 inputs:
   files:
-    description: "Files or directory to add to git"
+    description: "Files or directory to add to git (space-separated for multiple)"
     required: true
   message:
     description: "Commit message"
@@ -53,12 +53,7 @@ runs:
             --head "$new_branch" \
             --title "${{ inputs.message }}" \
             --body "Automated changes from workflow." \
-            --repo "${GITHUB_REPOSITORY}" \
-            --fill \
-            --draft=false \
-            --reviewer "" \
-            --assignee "" \
-            --non-interactive
+            --repo "${GITHUB_REPOSITORY}"
         else
           echo "📌 On branch $current_branch — pushing directly..."
           git commit -m "${{ inputs.message }}"
