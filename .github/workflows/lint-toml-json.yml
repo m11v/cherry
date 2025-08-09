@@ -2,12 +2,6 @@ name: Check and Format JSON/TOML
 
 on:
   workflow_dispatch:  # 手动触发
-  push:
-    branches:
-      - main
-    paths:
-      - '**/*.json'
-      - '**/*.toml'
   pull_request:
     paths:
       - '**/*.json'
@@ -16,7 +10,7 @@ on:
       - '.github/workflows/lint-toml-json.yml'
 
 jobs:
-  lint:
+  lint-toml-json:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout repo
