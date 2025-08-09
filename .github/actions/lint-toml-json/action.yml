@@ -1,0 +1,55 @@
+name: "Optimized JSON/TOML Linter with Auto-Fix"
+description: "Check and auto-format changed JSON and TOML files"
+author: "你的名字"
+
+inputs:
+  python-version:
+    description: "Python version to use"
+    default: "3.11"
+  commit-message:
+    description: "Commit message when formatting changes are applied"
+    default: "chore: auto-format JSON/TOML files"
+
+runs:
+  using: "composite"
+  steps:
+    - name: Set up Python
+      uses: actions/setup-python@v5
+      with:
+        python-version: ${{ inputs.python-version }}
+
+    - name: Install dependencies
+      shell: bash
+      run: |
+        pip install -r "${{ github.action_path }}/requirements.txt"
+
+    - name: Run linter and auto-fix
+      id: run-lint
+      shell: bash
+      run: |
+        python "${{ github.action_path }}/lint.py"
+
+    - name: Collect formatted files
+      id: collect-files
+      shell: bash
+      run: |
+        # 如果 .lint-formatted 存在且非空，去重并输出到 step output `files`
+        if [ -f .lint-formatted ] && [ -s .lint-formatted ]; then
+          awk '!seen[$0]++' .lint-formatted > .lint-formatted.unique
+          # 下面用 GITHUB_OUTPUT 设置多行输出
+          echo "files<<EOF" >> $GITHUB_OUTPUT
+          cat .lint-formatted.unique >> $GITHUB_OUTPUT
+          echo "EOF" >> $GITHUB_OUTPUT
+        else
+          echo "files=" >> $GITHUB_OUTPUT
+        fi
+
+    - name: Commit formatted files
+      if: steps.collect-files.outputs.files != ''
+      uses: ./.github/actions/git-commit-push
+      with:
+        # 将上一步输出的多行字符串传给你的 commit action 的 files 输入
+        files: ${{ steps.collect-files.outputs.files }}
+        message: ${{ inputs.commit-message }}
+      env:
+        GITHUB_TOKEN: ${{ env.GITHUB_TOKEN }}
