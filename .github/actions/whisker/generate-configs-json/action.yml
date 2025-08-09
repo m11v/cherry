@@ -17,6 +17,6 @@ runs:
       uses: ./.github/actions/git-commit-push
       with:
         files: "whisker/configs.json"
-        message: "chore: update configs.json from configs.toml"
+        message: "[whisker] Update configs.json from configs.toml (automated update)"
       env:
         GITHUB_TOKEN: ${{ env.GITHUB_TOKEN }}

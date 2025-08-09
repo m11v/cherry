@@ -1,4 +1,4 @@
-name: Whisker-Manually Generate All Words
+name: Whisker - [M] Generate All Words
 
 permissions:
   contents: write        # 允许 push 代码

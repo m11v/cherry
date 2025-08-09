@@ -1,4 +1,5 @@
-name: Manual Generate Configs JSON
+name: Whisker - [A/M] Generate Configs JSON
+description: Generate the configs.json from configs.toml
 
 permissions:
   contents: write        # 允许 push 代码
@@ -12,9 +13,10 @@ on:
       - '.github/actions/whisker/generate-configs-json/action.yml'
       - '.github/actions/git-commit-push/action.yml'
       - 'whisker/scripts/config_toml_to_json.py'
+      - 'whisker/configs.toml'
 
 jobs:
-  generate-configs:
+  whisker-generate-configs:
     runs-on: ubuntu-latest
     steps:
       - name: ➡️ Checkout code

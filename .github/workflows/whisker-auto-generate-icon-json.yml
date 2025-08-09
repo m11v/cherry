@@ -1,4 +1,4 @@
-name: Whisker - Auto Generate Icon Json Files
+name: Whisker - [A] Generate Icon Json Files
 
 permissions:
   contents: write        # 允许 push 代码
@@ -13,7 +13,7 @@ on:
       - '.github/workflows/whisker-auto-generate-icon-json.yml'
 
 jobs:
-  auto-generate-icon-json:
+  whisker-generate-icon-json:
     runs-on: ubuntu-latest
 
     steps:
