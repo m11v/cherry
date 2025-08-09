@@ -10,6 +10,7 @@ on:
     paths:
       - '.github/workflows/whisker-generate-configs-json.yml'
       - '.github/actions/whisker/generate-configs-json/action.yml'
+      - '.github/actions/git-commit-push/action.yml'
       - 'whisker/scripts/config_toml_to_json.py'
 
 jobs:
