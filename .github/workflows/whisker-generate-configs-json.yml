@@ -27,3 +27,5 @@ jobs:
 
       - name: 👉 Generate and commit configs.json
         uses: ./.github/actions/whisker/generate-configs-json
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
