@@ -1,0 +1,46 @@
+name: Whisker - Auto Generate Icon Json Files
+
+permissions:
+  contents: write        # 允许 push 代码
+  pull-requests: write   # 允许创建和更新 PR
+
+on:
+  pull_request:
+    types: [opened, synchronize]
+    paths:
+      - 'whisker/icons/**'
+      - 'whisker/scripts/generate_icon_jsons.py'
+      - '.github/workflows/whisker-auto-generate-icon-json.yml'
+
+jobs:
+  auto-generate-icon-json:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout PR branch
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+          ref: ${{ github.head_ref }}
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.x'
+
+      - name: Install dependencies
+        run: pip install toml
+
+      - name: Generate json files for icon changes
+        id: run_python
+        run: |
+          FILES=$(python whisker/scripts/generate_icon_jsons.py)
+          echo "files_to_commit=$FILES" >> $GITHUB_OUTPUT
+
+      - name: Commit and push changes
+        if: ${{ steps.run_python.outputs.files_to_commit != 'NO_ICON_CHANGES' }}
+        uses: ./.github/actions/git-commit-push
+        with:
+          files: ${{ steps.run_python.outputs.files_to_commit }}
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
