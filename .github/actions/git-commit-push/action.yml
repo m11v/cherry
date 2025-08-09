@@ -28,6 +28,7 @@ runs:
       run: |
         set -e
         git add ${{ inputs.files }}
+
         if git diff --cached --quiet; then
           echo "ℹ️ No changes to commit."
           exit 0
@@ -42,14 +43,14 @@ runs:
           git commit -m "${{ inputs.message }}"
           git push origin "$new_branch"
 
-          # Authenticate gh CLI with the provided github.token
-          echo "${{ github.token }}" | gh auth login --with-token
+          echo "$GITHUB_TOKEN" | gh auth login --with-token
 
           gh pr create \
             --base main \
             --head "$new_branch" \
             --title "${{ inputs.message }}" \
-            --body "Automated changes from workflow."
+            --body "Automated changes from workflow." \
+            --repo "${GITHUB_REPOSITORY}" --non-interactive
         else
           echo "📌 On branch $current_branch — pushing directly..."
           git commit -m "${{ inputs.message }}"
