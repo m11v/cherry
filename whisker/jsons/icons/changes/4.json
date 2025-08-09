@@ -1,9 +1,6 @@
 {
   "version": 4,
-  "icons": [
-    {
-      "icon": "fruits/apple.png"
-    },
+  "changes": [
     {
       "icon": "fruits/avocado.png"
     },
@@ -35,9 +32,6 @@
       "icon": "fruits/kiwi.png"
     },
     {
-      "icon": "fruits/lemon.png"
-    },
-    {
       "icon": "fruits/lychee.png"
     },
     {
@@ -45,9 +39,6 @@
     },
     {
       "icon": "fruits/mangosteen.png"
-    },
-    {
-      "icon": "fruits/orange.png"
     },
     {
       "icon": "fruits/papaya.png"
@@ -62,9 +53,6 @@
       "icon": "fruits/pear.png"
     },
     {
-      "icon": "fruits/pineapple.png"
-    },
-    {
       "icon": "fruits/pomegranate.png"
     },
     {
@@ -75,18 +63,6 @@
     },
     {
       "icon": "fruits/watermelon.png"
-    },
-    {
-      "icon": "vegetables/corn.png"
-    },
-    {
-      "icon": "vegetables/eggplant.png"
-    },
-    {
-      "icon": "vegetables/garlic.png"
-    },
-    {
-      "icon": "vegetables/soybean.png"
     }
   ]
 }
