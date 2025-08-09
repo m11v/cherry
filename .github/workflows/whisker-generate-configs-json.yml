@@ -1,5 +1,9 @@
 name: Manual Generate Configs JSON
 
+permissions:
+  contents: write        # 允许 push 代码
+  pull-requests: write   # 允许创建和更新 PR
+
 on:
   workflow_dispatch:  # 手动触发
   pull_request:
@@ -12,6 +16,9 @@ jobs:
     steps:
       - name: ➡️ Checkout code
         uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+          ref: ${{ github.head_ref }}
 
       - name: ➡️ Setup Python
         uses: actions/setup-python@v5
