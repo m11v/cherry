@@ -4,7 +4,6 @@ author: "Irene"
 
 runs:
   using: "composite"
-
   steps:
     - name: ⚙️ Install Python dependencies
       shell: bash
@@ -12,11 +11,12 @@ runs:
 
     - name: 👉️ Convert configs.toml to configs.json
       shell: bash
-      run: |
-        python ./whisker/scripts/config_toml_to_json.py
+      run: python ./whisker/scripts/config_toml_to_json.py
 
-    - name: 🚀️ Commit configs.json
+    - name: 🚀 Commit configs.json
       uses: ./.github/actions/git-commit-push
       with:
-        files: whisker/configs.json
+        files: "whisker/configs.json"
         message: "chore: update configs.json from configs.toml"
+      env:
+        GITHUB_TOKEN: ${{ env.GITHUB_TOKEN }}
