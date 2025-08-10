@@ -1,0 +1,81 @@
+{
+  "version": 3,
+  "icon_version": 5,
+  "words": [
+    {
+      "icon": "vegetables/Chinese-cabbage.png",
+      "word": "Chinese cabbage",
+      "category": "vegetables"
+    },
+    {
+      "icon": "vegetables/beet.png",
+      "word": "beet",
+      "category": "vegetables"
+    },
+    {
+      "icon": "vegetables/bell-pepper.png",
+      "word": "bell pepper",
+      "category": "vegetables"
+    },
+    {
+      "icon": "vegetables/broccoli.png",
+      "word": "broccoli",
+      "category": "vegetables"
+    },
+    {
+      "icon": "vegetables/cabbage.png",
+      "word": "cabbage",
+      "category": "vegetables"
+    },
+    {
+      "icon": "vegetables/carrot.png",
+      "word": "carrot",
+      "category": "vegetables"
+    },
+    {
+      "icon": "vegetables/cauliflower.png",
+      "word": "cauliflower",
+      "category": "vegetables"
+    },
+    {
+      "icon": "vegetables/cucumber.png",
+      "word": "cucumber",
+      "category": "vegetables"
+    },
+    {
+      "icon": "vegetables/onion.png",
+      "word": "onion",
+      "category": "vegetables"
+    },
+    {
+      "icon": "vegetables/potato.png",
+      "word": "potato",
+      "category": "vegetables"
+    },
+    {
+      "icon": "vegetables/pumpkin.png",
+      "word": "pumpkin",
+      "category": "vegetables"
+    },
+    {
+      "icon": "vegetables/radish.png",
+      "word": "radish",
+      "category": "vegetables"
+    },
+    {
+      "icon": "vegetables/red-chili-pepper.png",
+      "word": "red chili pepper",
+      "category": "vegetables"
+    },
+    {
+      "icon": "vegetables/tomato.png",
+      "word": "tomato",
+      "category": "vegetables"
+    },
+    {
+      "icon": "vegetables/zucchini.png",
+      "word": "zucchini",
+      "category": "vegetables"
+    }
+  ]
+}
