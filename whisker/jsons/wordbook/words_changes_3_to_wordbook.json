@@ -1,8 +1,32 @@
 {
   "version": 3,
-  "word_version": 3,
+  "word_version": 4,
   "icon_version": 5,
   "words": [
+    {
+      "icon": "vegetables/Chinese-cabbage.png",
+      "word": "Chinese cabbage",
+      "category": "vegetables",
+      "ps": "/ʧaɪˈniz ˌkæbɪʤ/",
+      "cps": "拆ˌ尼兹 ˌ凯比吱",
+      "cpt": "拆ˌ尼茲 ˌ凱比吱",
+      "hans": "大白菜",
+      "hant": "大白菜",
+      "ts": "名词",
+      "tt": "名詞"
+    },
+    {
+      "icon": "vegetables/beet.png",
+      "word": "beet",
+      "category": "vegetables",
+      "ps": "/bit/",
+      "cps": "必ˊ特",
+      "cpt": "必ˊ特",
+      "hans": "甜菜根",
+      "hant": "甜菜根",
+      "ts": "名词",
+      "tt": "名詞"
+    },
     {
       "icon": "vegetables/bell-pepper.png",
       "word": "bell pepper",
@@ -24,6 +48,30 @@
       "cpt": "布ˊ繞ˌ克裡",
       "hans": "西兰花",
       "hant": "西蘭花",
+      "ts": "名词",
+      "tt": "名詞"
+    },
+    {
+      "icon": "vegetables/cabbage.png",
+      "word": "cabbage",
+      "category": "vegetables",
+      "ps": "/ˈkæbɪʤ/",
+      "cps": "凯ˊ比吱",
+      "cpt": "凱ˊ比吱",
+      "hans": "卷心菜",
+      "hant": "卷心菜",
+      "ts": "名词",
+      "tt": "名詞"
+    },
+    {
+      "icon": "vegetables/carrot.png",
+      "word": "carrot",
+      "category": "vegetables",
+      "ps": "/ˈkærət/",
+      "cps": "凯ˊ若特",
+      "cpt": "凱ˊ若特",
+      "hans": "胡萝卜",
+      "hant": "胡蘿蔔",
       "ts": "名词",
       "tt": "名詞"
     },
@@ -52,14 +100,14 @@
       "tt": "名詞"
     },
     {
-      "icon": "vegetables/pumpkin.png",
-      "word": "pumpkin",
+      "icon": "vegetables/onion.png",
+      "word": "onion",
       "category": "vegetables",
-      "ps": "/ˈpʌmpˌkɪn/",
-      "cps": "庞ˊ普ˌkin",
-      "cpt": "龐ˊ普ˌkin",
-      "hans": "南瓜",
-      "hant": "南瓜",
+      "ps": "/ˈʌnjən/",
+      "cps": "安ˊ宁嗯",
+      "cpt": "安ˊ寧嗯",
+      "hans": "洋葱",
+      "hant": "洋蔥",
       "ts": "名词",
       "tt": "名詞"
     },
@@ -72,6 +120,30 @@
       "cpt": "坡ˊ忒特喔",
       "hans": "土豆",
       "hant": "土豆",
+      "ts": "名词",
+      "tt": "名詞"
+    },
+    {
+      "icon": "vegetables/pumpkin.png",
+      "word": "pumpkin",
+      "category": "vegetables",
+      "ps": "/ˈpʌmpˌkɪn/",
+      "cps": "庞ˊ普ˌkin",
+      "cpt": "龐ˊ普ˌkin",
+      "hans": "南瓜",
+      "hant": "南瓜",
+      "ts": "名词",
+      "tt": "名詞"
+    },
+    {
+      "icon": "vegetables/radish.png",
+      "word": "radish",
+      "category": "vegetables",
+      "ps": "/ˈrædɪʃ/",
+      "cps": "瑞ˊ迪什",
+      "cpt": "瑞ˊ迪什",
+      "hans": "小萝卜",
+      "hant": "小蘿蔔",
       "ts": "名词",
       "tt": "名詞"
     },
