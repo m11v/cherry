@@ -37,13 +37,14 @@ def main():
 
     # 4. 合并并排序 words
     merged_words = full_data["words"] + changes_data["words"]
-    merged_words.sort(key=lambda w: w.get("word", "").lower())
+    merged_words.sort(key=lambda w: w.get("icon", "").lower())
 
     # 5. 生成新 JSON
     new_data = {
         "version": changes_data["version"],
         "word_version": changes_data["word_version"],
         "icon_version": changes_data["icon_version"],
+        "count": len(merged_words),
         "words": merged_words
     }
 
