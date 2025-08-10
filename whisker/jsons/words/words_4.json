@@ -1,0 +1,297 @@
+{
+  "version": 4,
+  "icon_version": 6,
+  "count": 58,
+  "words": [
+    {
+      "icon": "animals/cat.png",
+      "word": "cat",
+      "category": "animals"
+    },
+    {
+      "icon": "animals/cow.png",
+      "word": "cow",
+      "category": "animals"
+    },
+    {
+      "icon": "animals/crocodile.png",
+      "word": "crocodile",
+      "category": "animals"
+    },
+    {
+      "icon": "animals/dog.png",
+      "word": "dog",
+      "category": "animals"
+    },
+    {
+      "icon": "animals/giraffe.png",
+      "word": "giraffe",
+      "category": "animals"
+    },
+    {
+      "icon": "animals/goat.png",
+      "word": "goat",
+      "category": "animals"
+    },
+    {
+      "icon": "animals/horse.png",
+      "word": "horse",
+      "category": "animals"
+    },
+    {
+      "icon": "animals/lion.png",
+      "word": "lion",
+      "category": "animals"
+    },
+    {
+      "icon": "animals/monkey.png",
+      "word": "monkey",
+      "category": "animals"
+    },
+    {
+      "icon": "animals/octopus.png",
+      "word": "octopus",
+      "category": "animals"
+    },
+    {
+      "icon": "animals/rabbit.png",
+      "word": "rabbit",
+      "category": "animals"
+    },
+    {
+      "icon": "animals/tiger.png",
+      "word": "tiger",
+      "category": "animals"
+    },
+    {
+      "icon": "animals/whale.png",
+      "word": "whale",
+      "category": "animals"
+    },
+    {
+      "icon": "animals/zebra.png",
+      "word": "zebra",
+      "category": "animals"
+    },
+    {
+      "icon": "fruits/apple.png",
+      "word": "apple",
+      "category": "fruits"
+    },
+    {
+      "icon": "fruits/avocado.png",
+      "word": "avocado",
+      "category": "fruits"
+    },
+    {
+      "icon": "fruits/banana.png",
+      "word": "banana",
+      "category": "fruits"
+    },
+    {
+      "icon": "fruits/cantaloupe.png",
+      "word": "cantaloupe",
+      "category": "fruits"
+    },
+    {
+      "icon": "fruits/cherries.png",
+      "word": "cherries",
+      "category": "fruits"
+    },
+    {
+      "icon": "fruits/coconut.png",
+      "word": "coconut",
+      "category": "fruits"
+    },
+    {
+      "icon": "fruits/cranberry.png",
+      "word": "cranberry",
+      "category": "fruits"
+    },
+    {
+      "icon": "fruits/dragon-fruit.png",
+      "word": "dragon fruit",
+      "category": "fruits"
+    },
+    {
+      "icon": "fruits/durian.png",
+      "word": "durian",
+      "category": "fruits"
+    },
+    {
+      "icon": "fruits/grapes.png",
+      "word": "grapes",
+      "category": "fruits"
+    },
+    {
+      "icon": "fruits/kiwi.png",
+      "word": "kiwi",
+      "category": "fruits"
+    },
+    {
+      "icon": "fruits/lemon.png",
+      "word": "lemon",
+      "category": "fruits"
+    },
+    {
+      "icon": "fruits/lychee.png",
+      "word": "lychee",
+      "category": "fruits"
+    },
+    {
+      "icon": "fruits/mango.png",
+      "word": "mango",
+      "category": "fruits"
+    },
+    {
+      "icon": "fruits/mangosteen.png",
+      "word": "mangosteen",
+      "category": "fruits"
+    },
+    {
+      "icon": "fruits/orange.png",
+      "word": "orange",
+      "category": "fruits"
+    },
+    {
+      "icon": "fruits/papaya.png",
+      "word": "papaya",
+      "category": "fruits"
+    },
+    {
+      "icon": "fruits/passion-fruit.png",
+      "word": "passion fruit",
+      "category": "fruits"
+    },
+    {
+      "icon": "fruits/peach.png",
+      "word": "peach",
+      "category": "fruits"
+    },
+    {
+      "icon": "fruits/pear.png",
+      "word": "pear",
+      "category": "fruits"
+    },
+    {
+      "icon": "fruits/pineapple.png",
+      "word": "pineapple",
+      "category": "fruits"
+    },
+    {
+      "icon": "fruits/pomegranate.png",
+      "word": "pomegranate",
+      "category": "fruits"
+    },
+    {
+      "icon": "fruits/raspberry.png",
+      "word": "raspberry",
+      "category": "fruits"
+    },
+    {
+      "icon": "fruits/strawberry.png",
+      "word": "strawberry",
+      "category": "fruits"
+    },
+    {
+      "icon": "fruits/watermelon.png",
+      "word": "watermelon",
+      "category": "fruits"
+    },
+    {
+      "icon": "vegetables/Chinese-cabbage.png",
+      "word": "Chinese cabbage",
+      "category": "vegetables"
+    },
+    {
+      "icon": "vegetables/beet.png",
+      "word": "beet",
+      "category": "vegetables"
+    },
+    {
+      "icon": "vegetables/bell-pepper.png",
+      "word": "bell pepper",
+      "category": "vegetables"
+    },
+    {
+      "icon": "vegetables/broccoli.png",
+      "word": "broccoli",
+      "category": "vegetables"
+    },
+    {
+      "icon": "vegetables/cabbage.png",
+      "word": "cabbage",
+      "category": "vegetables"
+    },
+    {
+      "icon": "vegetables/carrot.png",
+      "word": "carrot",
+      "category": "vegetables"
+    },
+    {
+      "icon": "vegetables/cauliflower.png",
+      "word": "cauliflower",
+      "category": "vegetables"
+    },
+    {
+      "icon": "vegetables/corn.png",
+      "word": "corn",
+      "category": "vegetables"
+    },
+    {
+      "icon": "vegetables/cucumber.png",
+      "word": "cucumber",
+      "category": "vegetables"
+    },
+    {
+      "icon": "vegetables/eggplant.png",
+      "word": "eggplant",
+      "category": "vegetables"
+    },
+    {
+      "icon": "vegetables/garlic.png",
+      "word": "garlic",
+      "category": "vegetables"
+    },
+    {
+      "icon": "vegetables/onion.png",
+      "word": "onion",
+      "category": "vegetables"
+    },
+    {
+      "icon": "vegetables/potato.png",
+      "word": "potato",
+      "category": "vegetables"
+    },
+    {
+      "icon": "vegetables/pumpkin.png",
+      "word": "pumpkin",
+      "category": "vegetables"
+    },
+    {
+      "icon": "vegetables/radish.png",
+      "word": "radish",
+      "category": "vegetables"
+    },
+    {
+      "icon": "vegetables/red-chili-pepper.png",
+      "word": "red chili pepper",
+      "category": "vegetables"
+    },
+    {
+      "icon": "vegetables/soybean.png",
+      "word": "soybean",
+      "category": "vegetables"
+    },
+    {
+      "icon": "vegetables/tomato.png",
+      "word": "tomato",
+      "category": "vegetables"
+    },
+    {
+      "icon": "vegetables/zucchini.png",
+      "word": "zucchini",
+      "category": "vegetables"
+    }
+  ]
+}
