@@ -1,6 +1,49 @@
 {
-  "version": 5,
+  "version": 6,
+  "count": 58,
   "icons": [
+    {
+      "icon": "animals/cat.png"
+    },
+    {
+      "icon": "animals/cow.png"
+    },
+    {
+      "icon": "animals/crocodile.png"
+    },
+    {
+      "icon": "animals/dog.png"
+    },
+    {
+      "icon": "animals/giraffe.png"
+    },
+    {
+      "icon": "animals/goat.png"
+    },
+    {
+      "icon": "animals/horse.png"
+    },
+    {
+      "icon": "animals/lion.png"
+    },
+    {
+      "icon": "animals/monkey.png"
+    },
+    {
+      "icon": "animals/octopus.png"
+    },
+    {
+      "icon": "animals/rabbit.png"
+    },
+    {
+      "icon": "animals/tiger.png"
+    },
+    {
+      "icon": "animals/whale.png"
+    },
+    {
+      "icon": "animals/zebra.png"
+    },
     {
       "icon": "fruits/apple.png"
     },
