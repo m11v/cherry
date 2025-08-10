@@ -1,0 +1,41 @@
+name: Whisker - [M] Generate Workbook
+
+permissions:
+  contents: write        # 允许 push 代码
+  pull-requests: write   # 允许创建和更新 PR
+
+on:
+  workflow_dispatch:
+
+jobs:
+  whisker-generate-workbook:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+          ref: ${{ github.head_ref }}
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.x'
+
+      - name: Install dependencies
+        run: pip install toml
+
+      - name: Generate new wordbook
+        id: generate-wordbook
+        run: |
+            python whisker/scripts/generate_wordbook.py \
+              --output-files output_files.txt
+            echo "files=$(cat output_files.txt)" >> $GITHUB_OUTPUT
+
+      - name: Commit and push changes
+        uses: ./.github/actions/git-commit-push
+        with:
+          files: ${{ steps.generate-wordbook.outputs.files }}
+          message: "[whisker] Generate wordbook (automated update)"
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
