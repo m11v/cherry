@@ -1,0 +1,115 @@
+{
+  "version": 3,
+  "word_version": 3,
+  "icon_version": 5,
+  "words": [
+    {
+      "icon": "vegetables/bell-pepper.png",
+      "word": "bell pepper",
+      "category": "vegetables",
+      "ps": "/ˈbɛl ˌpɛpər/",
+      "cps": "贝ˊ哦 ˌ佩坡儿",
+      "cpt": "貝ˊ哦 ˌ佩坡兒",
+      "hans": "甜椒",
+      "hant": "甜椒",
+      "ts": "名词",
+      "tt": "名詞"
+    },
+    {
+      "icon": "vegetables/broccoli.png",
+      "word": "broccoli",
+      "category": "vegetables",
+      "ps": "/ˈbrɑˌkəli/",
+      "cps": "布ˊ绕ˌ克里",
+      "cpt": "布ˊ繞ˌ克裡",
+      "hans": "西兰花",
+      "hant": "西蘭花",
+      "ts": "名词",
+      "tt": "名詞"
+    },
+    {
+      "icon": "vegetables/cauliflower.png",
+      "word": "cauliflower",
+      "category": "vegetables",
+      "ps": "/ˈkɑliˌflaʊər/",
+      "cps": "靠ˊ里ˌ夫拉窝儿",
+      "cpt": "靠ˊ裡ˌ夫拉窩兒",
+      "hans": "菜花",
+      "hant": "菜花",
+      "ts": "名词",
+      "tt": "名詞"
+    },
+    {
+      "icon": "vegetables/cucumber.png",
+      "word": "cucumber",
+      "category": "vegetables",
+      "ps": "/ˈkjuˌkʌmbər/",
+      "cps": "Qˊ卡ˌ母波儿",
+      "cpt": "Qˊ卡ˌ母波兒",
+      "hans": "黄瓜",
+      "hant": "黃瓜",
+      "ts": "名词",
+      "tt": "名詞"
+    },
+    {
+      "icon": "vegetables/pumpkin.png",
+      "word": "pumpkin",
+      "category": "vegetables",
+      "ps": "/ˈpʌmpˌkɪn/",
+      "cps": "庞ˊ普ˌkin",
+      "cpt": "龐ˊ普ˌkin",
+      "hans": "南瓜",
+      "hant": "南瓜",
+      "ts": "名词",
+      "tt": "名詞"
+    },
+    {
+      "icon": "vegetables/potato.png",
+      "word": "potato",
+      "category": "vegetables",
+      "ps": "/pəˈteɪtoʊ/",
+      "cps": "坡ˊ忒特喔",
+      "cpt": "坡ˊ忒特喔",
+      "hans": "土豆",
+      "hant": "土豆",
+      "ts": "名词",
+      "tt": "名詞"
+    },
+    {
+      "icon": "vegetables/red-chili-pepper.png",
+      "word": "red chili pepper",
+      "category": "vegetables",
+      "ps": "/ˈrɛd ˌʧɪli ˌpɛpər/",
+      "cps": "瑞德ˊ迟哩 ˌ佩坡儿",
+      "cpt": "瑞德ˊ遲哩 ˌ佩坡兒",
+      "hans": "红辣椒",
+      "hant": "紅辣椒",
+      "ts": "名词",
+      "tt": "名詞"
+    },
+    {
+      "icon": "vegetables/tomato.png",
+      "word": "tomato",
+      "category": "vegetables",
+      "ps": "/təˈmeɪtoʊ/",
+      "cps": "特ˊ梅头喔",
+      "cpt": "特ˊ梅頭喔",
+      "hans": "番茄",
+      "hant": "番茄",
+      "ts": "名词",
+      "tt": "名詞"
+    },
+    {
+      "icon": "vegetables/zucchini.png",
+      "word": "zucchini",
+      "category": "vegetables",
+      "ps": "/zuˈkini/",
+      "cps": "祖ˊKi尼",
+      "cpt": "祖ˊKi尼",
+      "hans": "西葫芦",
+      "hant": "西葫蘆",
+      "ts": "名词",
+      "tt": "名詞"
+    }
+  ]
+}
