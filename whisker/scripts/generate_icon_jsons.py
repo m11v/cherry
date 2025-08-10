@@ -46,6 +46,7 @@ def main():
 
     version_json_data = {
         "version": new_version,
+        "count": len(changes_list),
         "changes": changes_list
     }
     version_json_path = changes_dir / f"{new_version}.json"
@@ -65,8 +66,9 @@ def main():
     all_json_path.parent.mkdir(parents=True, exist_ok=True)
     with open(all_json_path, "w") as f:
         json.dump({
-                "version": new_version,    # 新增这一行
-                "icons": all_icons
+                "version": new_version,
+                "count": len(all_icons),
+                "icons": all_icons,
             }, f, indent=2, ensure_ascii=False)
 
     # 输出需要 commit 的文件路径，供 workflow 使用
