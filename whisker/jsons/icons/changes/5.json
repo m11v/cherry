@@ -1,0 +1,50 @@
+{
+  "version": 5,
+  "changes": [
+    {
+      "icon": "vegetables/Chinese-cabbage.png"
+    },
+    {
+      "icon": "vegetables/beet.png"
+    },
+    {
+      "icon": "vegetables/bell-pepper.png"
+    },
+    {
+      "icon": "vegetables/broccoli.png"
+    },
+    {
+      "icon": "vegetables/cabbage.png"
+    },
+    {
+      "icon": "vegetables/carrot.png"
+    },
+    {
+      "icon": "vegetables/cauliflower.png"
+    },
+    {
+      "icon": "vegetables/cucumber.png"
+    },
+    {
+      "icon": "vegetables/onion.png"
+    },
+    {
+      "icon": "vegetables/potato.png"
+    },
+    {
+      "icon": "vegetables/pumpkin.png"
+    },
+    {
+      "icon": "vegetables/radish.png"
+    },
+    {
+      "icon": "vegetables/red-chili-pepper.png"
+    },
+    {
+      "icon": "vegetables/tomato.png"
+    },
+    {
+      "icon": "vegetables/zucchini.png"
+    }
+  ]
+}
