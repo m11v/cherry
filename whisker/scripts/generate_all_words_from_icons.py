@@ -74,7 +74,7 @@ if old_words_file.exists():
         changes_output = {
             "version": new_words_version,
             "icon_version": icon_version,
-            "new_words": new_entries
+            "words": new_entries
         }
         with open(changes_file, "w", encoding="utf-8") as f:
             json.dump(changes_output, f, ensure_ascii=False, indent=2)
