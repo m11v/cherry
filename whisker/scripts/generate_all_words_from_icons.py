@@ -52,6 +52,7 @@ new_words_file = WORDS_DIR / f"words_{new_words_version}.json"
 output_data = {
     "version": new_words_version,
     "icon_version": icon_version,
+    "count": len(words_list),
     "words": words_list
 }
 
@@ -74,6 +75,7 @@ if old_words_file.exists():
         changes_output = {
             "version": new_words_version,
             "icon_version": icon_version,
+            "count": len(new_entries),
             "words": new_entries
         }
         with open(changes_file, "w", encoding="utf-8") as f:
