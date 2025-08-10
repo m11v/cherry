@@ -1,0 +1,77 @@
+{
+  "version": 4,
+  "icon_version": 6,
+  "count": 14,
+  "words": [
+    {
+      "icon": "animals/cat.png",
+      "word": "cat",
+      "category": "animals"
+    },
+    {
+      "icon": "animals/cow.png",
+      "word": "cow",
+      "category": "animals"
+    },
+    {
+      "icon": "animals/crocodile.png",
+      "word": "crocodile",
+      "category": "animals"
+    },
+    {
+      "icon": "animals/dog.png",
+      "word": "dog",
+      "category": "animals"
+    },
+    {
+      "icon": "animals/giraffe.png",
+      "word": "giraffe",
+      "category": "animals"
+    },
+    {
+      "icon": "animals/goat.png",
+      "word": "goat",
+      "category": "animals"
+    },
+    {
+      "icon": "animals/horse.png",
+      "word": "horse",
+      "category": "animals"
+    },
+    {
+      "icon": "animals/lion.png",
+      "word": "lion",
+      "category": "animals"
+    },
+    {
+      "icon": "animals/monkey.png",
+      "word": "monkey",
+      "category": "animals"
+    },
+    {
+      "icon": "animals/octopus.png",
+      "word": "octopus",
+      "category": "animals"
+    },
+    {
+      "icon": "animals/rabbit.png",
+      "word": "rabbit",
+      "category": "animals"
+    },
+    {
+      "icon": "animals/tiger.png",
+      "word": "tiger",
+      "category": "animals"
+    },
+    {
+      "icon": "animals/whale.png",
+      "word": "whale",
+      "category": "animals"
+    },
+    {
+      "icon": "animals/zebra.png",
+      "word": "zebra",
+      "category": "animals"
+    }
+  ]
+}
