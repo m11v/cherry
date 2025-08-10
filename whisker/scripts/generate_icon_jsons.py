@@ -67,8 +67,8 @@ def main():
     with open(all_json_path, "w") as f:
         json.dump({
                 "version": new_version,
-                "icons": all_icons,
                 "count": len(all_icons),
+                "icons": all_icons,
             }, f, indent=2, ensure_ascii=False)
 
     # 输出需要 commit 的文件路径，供 workflow 使用
