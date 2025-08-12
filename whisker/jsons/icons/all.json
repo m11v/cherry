@@ -1,0 +1,180 @@
+{
+  "version": 1,
+  "count": 58,
+  "icons": [
+    {
+      "icon": "animal/cat.png"
+    },
+    {
+      "icon": "animal/cow.png"
+    },
+    {
+      "icon": "animal/crocodile.png"
+    },
+    {
+      "icon": "animal/dog.png"
+    },
+    {
+      "icon": "animal/giraffe.png"
+    },
+    {
+      "icon": "animal/goat.png"
+    },
+    {
+      "icon": "animal/horse.png"
+    },
+    {
+      "icon": "animal/lion.png"
+    },
+    {
+      "icon": "animal/monkey.png"
+    },
+    {
+      "icon": "animal/octopus.png"
+    },
+    {
+      "icon": "animal/rabbit.png"
+    },
+    {
+      "icon": "animal/tiger.png"
+    },
+    {
+      "icon": "animal/whale.png"
+    },
+    {
+      "icon": "animal/zebra.png"
+    },
+    {
+      "icon": "fruit/apple.png"
+    },
+    {
+      "icon": "fruit/avocado.png"
+    },
+    {
+      "icon": "fruit/banana.png"
+    },
+    {
+      "icon": "fruit/cantaloupe.png"
+    },
+    {
+      "icon": "fruit/cherries.png"
+    },
+    {
+      "icon": "fruit/coconut.png"
+    },
+    {
+      "icon": "fruit/cranberry.png"
+    },
+    {
+      "icon": "fruit/dragon-fruit.png"
+    },
+    {
+      "icon": "fruit/durian.png"
+    },
+    {
+      "icon": "fruit/grapes.png"
+    },
+    {
+      "icon": "fruit/kiwi.png"
+    },
+    {
+      "icon": "fruit/lemon.png"
+    },
+    {
+      "icon": "fruit/lychee.png"
+    },
+    {
+      "icon": "fruit/mango.png"
+    },
+    {
+      "icon": "fruit/mangosteen.png"
+    },
+    {
+      "icon": "fruit/orange.png"
+    },
+    {
+      "icon": "fruit/papaya.png"
+    },
+    {
+      "icon": "fruit/passion-fruit.png"
+    },
+    {
+      "icon": "fruit/peach.png"
+    },
+    {
+      "icon": "fruit/pear.png"
+    },
+    {
+      "icon": "fruit/pineapple.png"
+    },
+    {
+      "icon": "fruit/pomegranate.png"
+    },
+    {
+      "icon": "fruit/raspberry.png"
+    },
+    {
+      "icon": "fruit/strawberry.png"
+    },
+    {
+      "icon": "fruit/watermelon.png"
+    },
+    {
+      "icon": "vegetable/Chinese-cabbage.png"
+    },
+    {
+      "icon": "vegetable/beet.png"
+    },
+    {
+      "icon": "vegetable/bell-pepper.png"
+    },
+    {
+      "icon": "vegetable/broccoli.png"
+    },
+    {
+      "icon": "vegetable/cabbage.png"
+    },
+    {
+      "icon": "vegetable/carrot.png"
+    },
+    {
+      "icon": "vegetable/cauliflower.png"
+    },
+    {
+      "icon": "vegetable/corn.png"
+    },
+    {
+      "icon": "vegetable/cucumber.png"
+    },
+    {
+      "icon": "vegetable/eggplant.png"
+    },
+    {
+      "icon": "vegetable/garlic.png"
+    },
+    {
+      "icon": "vegetable/onion.png"
+    },
+    {
+      "icon": "vegetable/potato.png"
+    },
+    {
+      "icon": "vegetable/pumpkin.png"
+    },
+    {
+      "icon": "vegetable/radish.png"
+    },
+    {
+      "icon": "vegetable/red-chili-pepper.png"
+    },
+    {
+      "icon": "vegetable/soybean.png"
+    },
+    {
+      "icon": "vegetable/tomato.png"
+    },
+    {
+      "icon": "vegetable/zucchini.png"
+    }
+  ]
+}
