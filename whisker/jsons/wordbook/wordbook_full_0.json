@@ -1,9 +1,45 @@
 {
   "version": 0,
-  "word_version": 0,
-  "icon_version": 0,
-  "count": 44,
+  "word_version": 1,
+  "icon_version": 2,
+  "count": 47,
   "words": [
+    {
+      "icon": "browse/animal.png",
+      "word": "animal",
+      "category": "browse",
+      "ps": "/ˈænɪməl/",
+      "cps": "安ˊ呢ˌ莫l",
+      "cpt": "安ˊ呢ˌ莫l",
+      "hans": "动物",
+      "hant": "動物",
+      "ts": "名词",
+      "tt": "名詞"
+    },
+    {
+      "icon": "browse/fruit.png",
+      "word": "fruit",
+      "category": "browse",
+      "ps": "/fruːt/",
+      "cps": "夫ˊ鲁～特",
+      "cpt": "夫ˊ魯～特",
+      "hans": "水果",
+      "hant": "水果",
+      "ts": "名词",
+      "tt": "名詞"
+    },
+    {
+      "icon": "browse/vegetable.png",
+      "word": "vegetable",
+      "category": "browse",
+      "ps": "/ˈvɛdʒtəbəl/",
+      "cps": "维ˊ吉特ˌ波l",
+      "cpt": "維ˊ吉特ˌ波l",
+      "hans": "蔬菜",
+      "hant": "蔬菜",
+      "ts": "名词",
+      "tt": "名詞"
+    },
     {
       "icon": "fruit/apple.png",
       "word": "apple",
