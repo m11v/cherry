@@ -1,0 +1,15 @@
+{
+  "version": 2,
+  "count": 3,
+  "changes": [
+    {
+      "icon": "browse/animal.png"
+    },
+    {
+      "icon": "browse/fruit.png"
+    },
+    {
+      "icon": "browse/vegetable.png"
+    }
+  ]
+}
