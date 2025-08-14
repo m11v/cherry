@@ -1,6 +1,6 @@
 {
-  "version": 1,
-  "count": 58,
+  "version": 2,
+  "count": 61,
   "icons": [
     {
       "icon": "animal/cat.png"
@@ -43,6 +43,15 @@
     },
     {
       "icon": "animal/zebra.png"
+    },
+    {
+      "icon": "browse/animal.png"
+    },
+    {
+      "icon": "browse/fruit.png"
+    },
+    {
+      "icon": "browse/vegetable.png"
     },
     {
       "icon": "fruit/apple.png"
