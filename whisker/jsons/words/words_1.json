@@ -1,0 +1,312 @@
+{
+  "version": 1,
+  "icon_version": 2,
+  "count": 61,
+  "words": [
+    {
+      "icon": "animal/cat.png",
+      "word": "cat",
+      "category": "animal"
+    },
+    {
+      "icon": "animal/cow.png",
+      "word": "cow",
+      "category": "animal"
+    },
+    {
+      "icon": "animal/crocodile.png",
+      "word": "crocodile",
+      "category": "animal"
+    },
+    {
+      "icon": "animal/dog.png",
+      "word": "dog",
+      "category": "animal"
+    },
+    {
+      "icon": "animal/giraffe.png",
+      "word": "giraffe",
+      "category": "animal"
+    },
+    {
+      "icon": "animal/goat.png",
+      "word": "goat",
+      "category": "animal"
+    },
+    {
+      "icon": "animal/horse.png",
+      "word": "horse",
+      "category": "animal"
+    },
+    {
+      "icon": "animal/lion.png",
+      "word": "lion",
+      "category": "animal"
+    },
+    {
+      "icon": "animal/monkey.png",
+      "word": "monkey",
+      "category": "animal"
+    },
+    {
+      "icon": "animal/octopus.png",
+      "word": "octopus",
+      "category": "animal"
+    },
+    {
+      "icon": "animal/rabbit.png",
+      "word": "rabbit",
+      "category": "animal"
+    },
+    {
+      "icon": "animal/tiger.png",
+      "word": "tiger",
+      "category": "animal"
+    },
+    {
+      "icon": "animal/whale.png",
+      "word": "whale",
+      "category": "animal"
+    },
+    {
+      "icon": "animal/zebra.png",
+      "word": "zebra",
+      "category": "animal"
+    },
+    {
+      "icon": "browse/animal.png",
+      "word": "animal",
+      "category": "browse"
+    },
+    {
+      "icon": "browse/fruit.png",
+      "word": "fruit",
+      "category": "browse"
+    },
+    {
+      "icon": "browse/vegetable.png",
+      "word": "vegetable",
+      "category": "browse"
+    },
+    {
+      "icon": "fruit/apple.png",
+      "word": "apple",
+      "category": "fruit"
+    },
+    {
+      "icon": "fruit/avocado.png",
+      "word": "avocado",
+      "category": "fruit"
+    },
+    {
+      "icon": "fruit/banana.png",
+      "word": "banana",
+      "category": "fruit"
+    },
+    {
+      "icon": "fruit/cantaloupe.png",
+      "word": "cantaloupe",
+      "category": "fruit"
+    },
+    {
+      "icon": "fruit/cherries.png",
+      "word": "cherries",
+      "category": "fruit"
+    },
+    {
+      "icon": "fruit/coconut.png",
+      "word": "coconut",
+      "category": "fruit"
+    },
+    {
+      "icon": "fruit/cranberry.png",
+      "word": "cranberry",
+      "category": "fruit"
+    },
+    {
+      "icon": "fruit/dragon-fruit.png",
+      "word": "dragon fruit",
+      "category": "fruit"
+    },
+    {
+      "icon": "fruit/durian.png",
+      "word": "durian",
+      "category": "fruit"
+    },
+    {
+      "icon": "fruit/grapes.png",
+      "word": "grapes",
+      "category": "fruit"
+    },
+    {
+      "icon": "fruit/kiwi.png",
+      "word": "kiwi",
+      "category": "fruit"
+    },
+    {
+      "icon": "fruit/lemon.png",
+      "word": "lemon",
+      "category": "fruit"
+    },
+    {
+      "icon": "fruit/lychee.png",
+      "word": "lychee",
+      "category": "fruit"
+    },
+    {
+      "icon": "fruit/mango.png",
+      "word": "mango",
+      "category": "fruit"
+    },
+    {
+      "icon": "fruit/mangosteen.png",
+      "word": "mangosteen",
+      "category": "fruit"
+    },
+    {
+      "icon": "fruit/orange.png",
+      "word": "orange",
+      "category": "fruit"
+    },
+    {
+      "icon": "fruit/papaya.png",
+      "word": "papaya",
+      "category": "fruit"
+    },
+    {
+      "icon": "fruit/passion-fruit.png",
+      "word": "passion fruit",
+      "category": "fruit"
+    },
+    {
+      "icon": "fruit/peach.png",
+      "word": "peach",
+      "category": "fruit"
+    },
+    {
+      "icon": "fruit/pear.png",
+      "word": "pear",
+      "category": "fruit"
+    },
+    {
+      "icon": "fruit/pineapple.png",
+      "word": "pineapple",
+      "category": "fruit"
+    },
+    {
+      "icon": "fruit/pomegranate.png",
+      "word": "pomegranate",
+      "category": "fruit"
+    },
+    {
+      "icon": "fruit/raspberry.png",
+      "word": "raspberry",
+      "category": "fruit"
+    },
+    {
+      "icon": "fruit/strawberry.png",
+      "word": "strawberry",
+      "category": "fruit"
+    },
+    {
+      "icon": "fruit/watermelon.png",
+      "word": "watermelon",
+      "category": "fruit"
+    },
+    {
+      "icon": "vegetable/Chinese-cabbage.png",
+      "word": "Chinese cabbage",
+      "category": "vegetable"
+    },
+    {
+      "icon": "vegetable/beet.png",
+      "word": "beet",
+      "category": "vegetable"
+    },
+    {
+      "icon": "vegetable/bell-pepper.png",
+      "word": "bell pepper",
+      "category": "vegetable"
+    },
+    {
+      "icon": "vegetable/broccoli.png",
+      "word": "broccoli",
+      "category": "vegetable"
+    },
+    {
+      "icon": "vegetable/cabbage.png",
+      "word": "cabbage",
+      "category": "vegetable"
+    },
+    {
+      "icon": "vegetable/carrot.png",
+      "word": "carrot",
+      "category": "vegetable"
+    },
+    {
+      "icon": "vegetable/cauliflower.png",
+      "word": "cauliflower",
+      "category": "vegetable"
+    },
+    {
+      "icon": "vegetable/corn.png",
+      "word": "corn",
+      "category": "vegetable"
+    },
+    {
+      "icon": "vegetable/cucumber.png",
+      "word": "cucumber",
+      "category": "vegetable"
+    },
+    {
+      "icon": "vegetable/eggplant.png",
+      "word": "eggplant",
+      "category": "vegetable"
+    },
+    {
+      "icon": "vegetable/garlic.png",
+      "word": "garlic",
+      "category": "vegetable"
+    },
+    {
+      "icon": "vegetable/onion.png",
+      "word": "onion",
+      "category": "vegetable"
+    },
+    {
+      "icon": "vegetable/potato.png",
+      "word": "potato",
+      "category": "vegetable"
+    },
+    {
+      "icon": "vegetable/pumpkin.png",
+      "word": "pumpkin",
+      "category": "vegetable"
+    },
+    {
+      "icon": "vegetable/radish.png",
+      "word": "radish",
+      "category": "vegetable"
+    },
+    {
+      "icon": "vegetable/red-chili-pepper.png",
+      "word": "red chili pepper",
+      "category": "vegetable"
+    },
+    {
+      "icon": "vegetable/soybean.png",
+      "word": "soybean",
+      "category": "vegetable"
+    },
+    {
+      "icon": "vegetable/tomato.png",
+      "word": "tomato",
+      "category": "vegetable"
+    },
+    {
+      "icon": "vegetable/zucchini.png",
+      "word": "zucchini",
+      "category": "vegetable"
+    }
+  ]
+}
